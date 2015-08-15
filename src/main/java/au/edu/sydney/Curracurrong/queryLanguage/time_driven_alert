@@ -1,0 +1,5 @@
+query q1 = Sense[node="10.0.0.15"] -> Threshold[check="$6 > 99"] -> SendEMail[email="curracurrong-alerts@gmail.com"];
+status q1;
+exec q1 "q1.out";
+status q1;
+print q1;

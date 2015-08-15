@@ -1,0 +1,5 @@
+query q1 = Sense[node="1.1.1.1"];
+status q1;
+exec q1 "q1.out";
+status q1;
+visualize q1;

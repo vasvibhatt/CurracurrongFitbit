@@ -1,0 +1,3 @@
+query q2 = (Sense [node="1.1.1.1"] |  Sense  [node="1.1.1.2"] | Sense [node="1.1.1.3"]);
+print q2;
+exec q2 "a1.txt";

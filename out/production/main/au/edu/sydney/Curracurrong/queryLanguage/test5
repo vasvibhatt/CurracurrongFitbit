@@ -1,0 +1,3 @@
+query q5 = ((Sense[node="1.1.1.1"] -> Select[field=2]) | (Sense[node="1.1.1.2"] -> Select[field=2]) | (Sense[node="1.1.1.3"] -> Select[field=2]));
+print q5;
+exec q5;

@@ -1,0 +1,6 @@
+query q1 = ((Sense[node="1.1.1.3"]|Sense[node="1.1.1.3"]) )|((Sense[node="1.1.1.2"]|Sense[node="1.1.1.4"]));
+print q1;
+visualize q1;
+query q2 = Sense[node="1.1.1.1"];
+print q2;
+visualize q2;

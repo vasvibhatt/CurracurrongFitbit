@@ -1,0 +1,5 @@
+query q7 = (Sense[node="1.1.1.1",rate=10.5] | Sense[node="1.1.1.1"] | Sense[node="1.1.1.1"]) -> Filter[] -> Filter[] 
+                 -> ([type=duplicate] Filter | Filter | (Filter -> Filter) );
+print q7;
+visualize q7;
+

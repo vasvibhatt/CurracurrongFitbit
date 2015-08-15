@@ -1,0 +1,5 @@
+query q1 = Sense[node="10.0.0.15"] -> Select[field="5,6,7"] | Sense[node="10.0.0.16"] -> Select[field="5,6,7"] | Sense[node="10.0.0.17"] -> Select[field="5,6,7"] | Sense[node="10.0.0.18"] -> Select[field="5,6,7"] | Sense[node="10.0.0.19"] -> Select[field="5,6,7"] | Sense[node="10.0.0.20"] -> Select[field="5,6,7"] | Sense[node="10.0.0.21"] -> Select[field="5,6,7"] | Sense[node="10.0.0.22"] -> Select[field="5,6,7"] | Sense[node="10.0.0.23"] -> Select[field="5,6,7"] | Sense[node="10.0.0.24"] -> Select[field="5,6,7"] | Sense[node="10.0.0.25"] -> Select[field="5,6,7"] | Sense[node="10.0.0.26"] -> Select[field="5,6,7"] | Sense[node="10.0.0.27"] -> Select[field="5,6,7"] | Sense[node="10.0.0.28"] -> Select[field="5,6,7"] | Sense[node="10.0.0.29"] -> Select[field="5,6,7"] | Sense[node="10.0.0.30"] -> Select[field="5,6,7"] | Sense[node="10.0.0.31"] -> Select[field="5,6,7"] | Sense[node="10.0.0.32"] -> Select[field="5,6,7"] | Sense[node="10.0.0.33"] -> Select[field="5,6,7"] | Sense[node="10.0.0.34"] -> Select[field="5,6,7"];
+status q1;
+exec q1 "q1.out";
+status q1;
+print q1;

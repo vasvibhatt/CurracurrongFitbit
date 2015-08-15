@@ -1,0 +1,5 @@
+query q7 = (Sense[node="1.1.1.1"] | Sense[node="1.1.1.1"] | Sense[node="1.1.1.1"]) -> Identity -> Identity -> (Identity | Identity | (Identity -> Identity) );
+print q7 ;
+query q8 = (Sense[node="1.1.1.1"] | Sense[node="1.1.1.1"] | Sense[node="1.1.1.2"]);
+print q8 ;
+status q8;

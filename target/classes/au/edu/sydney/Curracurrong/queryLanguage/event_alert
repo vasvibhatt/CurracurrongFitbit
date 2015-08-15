@@ -1,0 +1,5 @@
+query q1 = Sense[node="10.0.0.15", sensor="ErrorFileSensor", sched="EventTriggered", file="/tmp/errorfile"] -> SendEMailSink[email="akon.dey@gmail.com"];
+status q1;
+exec q1 "q1.out";
+status q1;
+print q1;

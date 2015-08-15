@@ -1,0 +1,4 @@
+query q1= Sense[node="1.1.1.1"] -> Sink[]; 
+exec q1 "test2.out";
+print q1;
+visualize q1;
